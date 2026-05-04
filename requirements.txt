@@ -1,0 +1,24 @@
+# Pinned to TF 2.15 + Keras 2 to load the older TF Hub BERT module.
+# If you upgrade to TF 2.16+, set TF_USE_LEGACY_KERAS=1 before importing TF.
+tensorflow==2.15.1
+tensorflow-hub==0.15.0
+
+# Core scientific stack
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scikit-learn>=1.3,<2.0
+
+# Visualization
+matplotlib>=3.7,<4.0
+seaborn>=0.12,<1.0
+
+# Tokenization helper used by the BERT WordPiece tokenizer
+sentencepiece>=0.1.99
+
+# Utilities
+requests>=2.31
+tqdm>=4.65
+colorama>=0.4.6
+
+# Notebook environment
+jupyter>=1.0.0

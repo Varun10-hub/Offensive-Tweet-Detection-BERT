@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Data files (loaded from URL at runtime; not committed)
+data/*.csv
+data/*.tsv
+data/*.json
+
+# TensorFlow saved models / checkpoints
+*.h5
+*.ckpt
+*.pb
+saved_model/
+checkpoints/
+logs/
+
+# Misc
+*.log
+.env
+.env.local
